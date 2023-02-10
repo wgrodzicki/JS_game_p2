@@ -1,0 +1,23 @@
+body {
+    background: black;
+}
+
+#container {
+    position: absolute;
+    width: 800px;
+    transform: translate(-50%, -50%); /* Make sure it's in the middle of the page */
+    top: 50%; /* Make sure it's in the middle of the page */
+    left: 50%; /* Make sure it's in the middle of the page */
+    font-size: 25px;
+    color: white;
+}
+
+#canvas1 {
+    position: relative; /* Align canvas with the container */
+    width: 800px;
+    height: 700px;
+}
+
+#slider {
+    width: 50%;
+}
